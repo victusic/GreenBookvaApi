@@ -2,14 +2,64 @@
 
 <h3>ENG</h3>
 <h4>Api for Green Bookva bookstore</h4> 
-<h5>React/Redux is also implemented:</h5>
-<ul>
-  <li>Page and dynamic pagination</li>
-  <li>Filters, sorting</li>
-  <li>Cart, Favorites, orders, personal cabinet</li>
-  <li>Realized promotions, promo codes, work with bank cards</li>
-  <li>and much more...</li>
-</ul>
+<h5>Examples of requests:</h5>
+<table>
+  <tr>
+    <td>&nbsp;</td>
+    <td>Type</td>
+    <td>Path</td>
+    <td>Result</td>
+  </tr>
+  <tr>
+    <td>1</td> <td>GET</td>
+    <td>https://db.green-bookva.shop/recommendation_banner</td>
+    <td>{
+        "image": "65qses7mffatkc36vial.webp",
+        "product_id": 900
+    }</td>
+  </tr>
+  <tr>
+    <td>2</td> <td>GET</td>
+    <td>https://db.green-bookva.shop/promotions_slider</td>
+    <td>{
+        "id": 3,
+        "banner": "neoux6p4dyhncaffni4i.webp"
+    },
+    {
+        "id": 10,
+        "banner": "54pz8ybggwled5owkhod.webp"
+    }</td>
+  </tr>
+  <tr>
+    <td>3</td> <td>GET</td>
+    <td>https://db.green-bookva.shop/promotions</td>
+    <td>{
+        "id": 1,
+        "name": "Фэнтезийные миры",
+        "duration": 20,
+        "banner": "wmqvg3aboyofmmpxa4fy.webp",
+        "short_description": "–22% на подборку книг Нила Геймана, Джона Толкина и не только"
+    },<br>
+    {
+        "id": 2,
+        "name": "Студенческая скидка",
+        "duration": 0,
+        "banner": "jhb0misvzx7ooh7xnlxw.webp",
+        "short_description": "Скидка 15% на всё при предъявлении студенческого билета"
+    }</td>
+  </tr>
+  <tr>
+    <td>4</td> <td>GET</td>
+    <td>https://db.green-bookva.shop/promotions/:id</td>
+    <td>{
+        "id": 1,
+        "name": "Фэнтезийные миры",
+        "duration": 20,
+        "banner": "wmqvg3aboyofmmpxa4fy.webp",
+        "full_description": "В книгах из нашей подборки – порталы в волшебные миры. Поэтому приготовьтесь к встречам с дружными хоббитами, грозными драконами и мудрыми колдуньями. Выбирайте свои сюжеты и готовьтесь к прогулкам по необычным краям! "
+    }</td>
+  </tr>
+</table>
 
 <h4>See result: https://green-bookva.shop/</h4> 
 
@@ -23,7 +73,7 @@
 
 <h3>RU</h3>
 <h4>Api для книжного магазина Green Bookva - данный в формате json</h4>
-<h5>Запросы (кроме связаных с личным кабинетом):</h5>
+<h5>Примеры запросов:</h5>
 <table>
   <tr>
     <td>&nbsp;</td>
@@ -32,10 +82,53 @@
     <td>Result</td>
   </tr>
   <tr>
-    <td>1</td>
-    <td>GET</td>
-    <td></td>
-    <td></td>
+    <td>1</td> <td>GET</td>
+    <td>https://db.green-bookva.shop/recommendation_banner</td>
+    <td>{
+        "image": "65qses7mffatkc36vial.webp",
+        "product_id": 900
+    }</td>
+  </tr>
+  <tr>
+    <td>2</td> <td>GET</td>
+    <td>https://db.green-bookva.shop/promotions_slider</td>
+    <td>{
+        "id": 3,
+        "banner": "neoux6p4dyhncaffni4i.webp"
+    },
+    {
+        "id": 10,
+        "banner": "54pz8ybggwled5owkhod.webp"
+    }</td>
+  </tr>
+  <tr>
+    <td>3</td> <td>GET</td>
+    <td>https://db.green-bookva.shop/promotions</td>
+    <td>{
+        "id": 1,
+        "name": "Фэнтезийные миры",
+        "duration": 20,
+        "banner": "wmqvg3aboyofmmpxa4fy.webp",
+        "short_description": "–22% на подборку книг Нила Геймана, Джона Толкина и не только"
+    },<br>
+    {
+        "id": 2,
+        "name": "Студенческая скидка",
+        "duration": 0,
+        "banner": "jhb0misvzx7ooh7xnlxw.webp",
+        "short_description": "Скидка 15% на всё при предъявлении студенческого билета"
+    }</td>
+  </tr>
+  <tr>
+    <td>4</td> <td>GET</td>
+    <td>https://db.green-bookva.shop/promotions/:id</td>
+    <td>{
+        "id": 1,
+        "name": "Фэнтезийные миры",
+        "duration": 20,
+        "banner": "wmqvg3aboyofmmpxa4fy.webp",
+        "full_description": "В книгах из нашей подборки – порталы в волшебные миры. Поэтому приготовьтесь к встречам с дружными хоббитами, грозными драконами и мудрыми колдуньями. Выбирайте свои сюжеты и готовьтесь к прогулкам по необычным краям! "
+    }</td>
   </tr>
 </table>
 
