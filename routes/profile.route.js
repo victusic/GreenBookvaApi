@@ -1,5 +1,5 @@
 const Router = require('express');
-const router = new Router()
+const router = new Router();
 const profileController = require('../controllers/profile.controller');
 
 router.get('/profile/:id', profileController.getProfile);
@@ -27,4 +27,4 @@ router.delete('/profile/:id', profileController.deleteProfile);
 router.delete('/profile/:id/full', profileController.deleteProfileFull);
 router.patch('/profile/:id/points', profileController.patchPoints);
 
-module.exports = router
+module.exports = router;
