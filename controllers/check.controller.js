@@ -10,7 +10,7 @@ async function sendMail(email, theme, text, textHtml) {
     port: 587, //465,
     auth: {
       user: 'victorhoroshilov@yandex.ru',
-      pass: '21562156Zz',
+      pass: 'tknlruxqyoooyqvw',
     },
   });
 
