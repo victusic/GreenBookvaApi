@@ -24,11 +24,12 @@ jobs:
           npm install
 
       - name: Deploy to FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
-          server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: ${{ secrets.FTP_PATH }}
-          protocol: sftp
+          server: ${{ secrets.FTP_SERVER }}
           port: 22
+          local_path: '	./*'
+          remote_path: ${{ secrets.FTP_PATH }}
+          sftp_only: true
+          password: ${{ secrets.FTP_PASSWORD }}
