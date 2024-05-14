@@ -1,5 +1,5 @@
 const Router = require('express');
-const router = new Router()
+const router = new Router();
 const Types_ProductsController = require('../controllers/types_products.controller');
 
 router.get('/category', Types_ProductsController.getCategory);
@@ -13,4 +13,4 @@ router.get('/category/subcategory/name', Types_ProductsController.getCategoryByS
 router.get('/type/product', Types_ProductsController.getTypeByProduct);
 router.get('/category/product', Types_ProductsController.getCategoryByProduct);
 router.get('/subcategory/product', Types_ProductsController.getSubcategoryByProduct);
-module.exports = router
+module.exports = router;

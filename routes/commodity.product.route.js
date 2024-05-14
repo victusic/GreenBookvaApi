@@ -1,5 +1,5 @@
 const Router = require('express');
-const router = new Router()
+const router = new Router();
 const commodityProductController = require('../controllers/commodity.product.controller');
 
 router.get('/product/new', commodityProductController.getProductNew);
@@ -15,4 +15,4 @@ router.get('/one/product/:id/images', commodityProductController.getProductOneIm
 router.get('/one/product/:id/images/list', commodityProductController.getProductOneImagesList);
 router.get('/one/product/:id/reviews', commodityProductController.getProductOneReviews);
 
-module.exports = router
+module.exports = router;
