@@ -23,5 +23,3 @@ jobs:
         run: echo "CI=false" >> $GITHUB_ENV
       - name: lint check
         run: npm run lint
-      - name: build project
-        run: npm run dev
