@@ -1,5 +1,5 @@
-const Router = require('express');
-const router = new Router();
+import { Router } from 'express';
+const router = Router();
 const ReviewController = require('../controllers/review.controller');
 
 router.get('/review/:id', ReviewController.GetReview);

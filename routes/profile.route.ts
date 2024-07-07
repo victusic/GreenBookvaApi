@@ -1,5 +1,5 @@
-const Router = require('express');
-const router = new Router();
+import { Router } from 'express';
+const router = Router();
 const profileController = require('../controllers/profile.controller');
 
 router.get('/profile/:id', profileController.getProfile);
@@ -10,12 +10,12 @@ router.delete('/favorites', profileController.delFavorites);
 router.delete('/favorites/:id', profileController.cleanFavorites);
 router.get('/favorites/:id/check', profileController.getFavoritesCheck);
 router.get('/favorites/:id/count', profileController.getFavoritesCount);
-router.get('/shopping_cart/:id', profileController.getShopping_cart);
-router.get('/shopping_cart/:id/check', profileController.getShopping_cartCheck);
-router.post('/shopping_cart', profileController.postShopping_cart);
-router.delete('/shopping_cart', profileController.delShopping_cart);
-router.delete('/shopping_cart/:id', profileController.cleanShopping_cart);
-router.get('/shopping_cart/:id/count', profileController.getShopping_cartCount);
+router.get('/shopping_cart/:id', profileController.getShoppingCart);
+router.get('/shopping_cart/:id/check', profileController.getShoppingCartCheck);
+router.post('/shopping_cart', profileController.postShoppingCart);
+router.delete('/shopping_cart', profileController.delShoppingCart);
+router.delete('/shopping_cart/:id', profileController.cleanShoppingCart);
+router.get('/shopping_cart/:id/count', profileController.getShoppingCartCount);
 router.get('/orders/:id', profileController.getOrders);
 router.get('/order/:code', profileController.getOrder);
 router.get('/card/:id', profileController.getCard);
