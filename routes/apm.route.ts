@@ -1,5 +1,6 @@
-const Router = require('express');
-const router = new Router();
+import { Router } from 'express';
+const router = Router();
+
 const APMController = require('../controllers/apm.controller');
 
 router.get('/author/:id', APMController.getAuthor);
