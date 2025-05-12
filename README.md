@@ -12,7 +12,7 @@
   </tr>
   <tr>
     <td>1</td> <td>GET</td>
-    <td>https://db.greenbookva.shop/recommendation_banner</td>
+    <td>https://api.green-bookva.shop/recommendation_banner</td>
     <td>{
         "image": "65qses7mffatkc36vial.webp",
         "product_id": 900
@@ -20,7 +20,7 @@
   </tr>
   <tr>
     <td>2</td> <td>GET</td>
-    <td>https://db.greenbookva.shop/promotions_slider</td>
+    <td>https://api.green-bookva.shop/promotions_slider</td>
     <td>{
         "id": 3,
         "banner": "neoux6p4dyhncaffni4i.webp"
@@ -32,7 +32,7 @@
   </tr>
   <tr>
     <td>3</td> <td>GET</td>
-    <td>https://db.greenbookva.shop/promotions</td>
+    <td>https://api.green-bookva.shop/promotions</td>
     <td>{
         "id": 1,
         "name": "Фэнтезийные миры",
@@ -50,7 +50,7 @@
   </tr>
   <tr>
     <td>4</td> <td>GET</td>
-    <td>https://db.greenbookva.shop/promotions/:id</td>
+    <td>https://api.green-bookva.shop/promotions/:id</td>
     <td>{
         "id": 1,
         "name": "Фэнтезийные миры",
@@ -83,7 +83,7 @@
   </tr>
   <tr>
     <td>1</td> <td>GET</td>
-    <td>https://db.greenbookva.shop/recommendation_banner</td>
+    <td>https://api.green-bookva.shop/recommendation_banner</td>
     <td>{
         "image": "65qses7mffatkc36vial.webp",
         "product_id": 900
@@ -91,7 +91,7 @@
   </tr>
   <tr>
     <td>2</td> <td>GET</td>
-    <td>https://db.greenbookva.shop/promotions_slider</td>
+    <td>https://api.green-bookva.shop/promotions_slider</td>
     <td>{
         "id": 3,
         "banner": "neoux6p4dyhncaffni4i.webp"
@@ -103,7 +103,7 @@
   </tr>
   <tr>
     <td>3</td> <td>GET</td>
-    <td>https://db.greenbookva.shop/promotions</td>
+    <td>https://api.green-bookva.shop/promotions</td>
     <td>{
         "id": 1,
         "name": "Фэнтезийные миры",
@@ -121,7 +121,7 @@
   </tr>
   <tr>
     <td>4</td> <td>GET</td>
-    <td>https://db.greenbookva.shop/promotions/:id</td>
+    <td>https://api.green-bookva.shop/promotions/:id</td>
     <td>{
         "id": 1,
         "name": "Фэнтезийные миры",
