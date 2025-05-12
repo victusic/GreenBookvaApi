@@ -61,7 +61,7 @@
   </tr>
 </table>
 
-<h4>See result: https://greenbookva.shop/</h4>
+<h4>See result: https://green-bookva.shop/</h4>
 
 <h4>The project is powered by <a href="https://github.com/victusic/GreenBookvaFront">GreenBookvaFront</a></h4>
 
@@ -132,7 +132,7 @@
   </tr>
 </table>
 
-<h4>Увидеть результат: https://greenbookva.shop/</h4>
+<h4>Увидеть результат: https://green-bookva.shop/</h4>
 
 <h4>Проект работает с помощью <a href="https://github.com/victusic/GreenBookvaFront">GreenBookvaFront</a></h4>
 
